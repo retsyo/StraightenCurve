@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-10-26 19:36+涓浗鏍囧噯鏃堕棿\n"
+"POT-Creation-Date: 2015-10-26 19:36+中国标准时间\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,21 @@ msgstr ""
 
 #: __init__.py:58 __init__.py:223
 msgid "Straighten curve"
-msgstr "鎷夌洿鏇茬嚎"
+msgstr "拉直曲线"
 
 #: __init__.py:59
 msgid "straighten curve without changing every segment's length"
-msgstr "鎷夌洿鏇茬嚎锛屽舰鎴愮洿绾裤€備笉鏀瑰彉鏋勬垚鏇茬嚎鐨勫悇娈电殑闀垮害"
+msgstr "拉直曲线，形成直线。不改变构成曲线的各段的长度"
 
 #: __init__.py:60
 msgid "Lee June"
-msgstr "鍐板喕鐗¤泿 @ BlenderCN"
+msgstr "冰冻牡蛎 @ BlenderCN"
 
 #: __init__.py:63
 msgid "Toolshelf"
-msgstr "宸ュ叿鏍?
+msgstr "工具栏"
 
 #: __init__.py:73 __init__.py:236
 msgid "straighten"
-msgstr "鎷夌洿鏇茬嚎"
+msgstr "拉直曲线"
 

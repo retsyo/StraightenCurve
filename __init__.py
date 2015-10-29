@@ -1,4 +1,4 @@
-# ***** BEGIN GPL LICENSE BLOCK *****
+﻿# ***** BEGIN GPL LICENSE BLOCK *****
 #
 #
 # This program is free software; you can redistribute it and/or
@@ -32,12 +32,12 @@ bl_info = {
     "name": "Straighten curve",
     "description": "straighten curve without changing every segment's length",
     "author": "Lee June",
-    "version": (0, 4),
+    "version": (0, 5),
     "blender": (2, 69, 0),
     "location": "Toolshelf",
     "warning": "", # used for warning icon and text in addons panel
     "wiki_url": "https://github.com/retsyo/StraightenCurve",
-    "category": "Create"}
+    "category": "Add Curve"}
 
 ################################################################################
 #            the following code is used for i18n                               #
@@ -241,7 +241,17 @@ class CreateStraightenCurvePanel(bpy.types.Panel):
     bl_label = _("Straighten curve")
     bl_space_type = "VIEW_3D"
     bl_region_type = "TOOLS"
-    bl_category = "Straighten curve"
+    bl_category = "Curve"
+
+    @classmethod
+    def poll(cls, context):
+        isModelingMode = not (context.sculpt_object
+            or context.vertex_paint_object
+            or context.weight_paint_object
+            or context.image_paint_object)
+        return (context.object is not None and
+            context.object.type == 'CURVE' and
+            isModelingMode)
 
     def draw(self, context):
 

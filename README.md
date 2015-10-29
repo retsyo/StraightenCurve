@@ -13,7 +13,7 @@
 #2.Usage
 ##2.1 basic
 * Enable Straighten Curve in Add-ons.<br>
-* Select a Curve in 3D Window, click the button under 'Straighten Curve' on 'Tool Shelf'.<br>
+* Select a Curve in 3D Window, click the button under 'Curve' on 'Tool Shelf'.<br>
 * The new staight line has same fill/depth/resolution parameters as the original one.<br>
 
 ##2.2 switch language
@@ -23,14 +23,16 @@
 <br>
 
 #3.Version Information
-* 2015.10.26 0.4ï¼ŒCan change GUI text according to User Preferences - system - language<br>
-* 2015.10.26 0.3ï¼ŒChange to Addon<br>
-* 2015.10.26 0.2ï¼ŒThe Script can deals with Curve which has many curves<br>
-* 2015.10.26 0.1ï¼ŒInitial version<br>
+* 2015.10.26 0.5, Spirou4D modified this addon so that it only display when Curve object is selected
+* 2015.10.26 0.4£¬Can change GUI text according to User Preferences - system - language<br>
+* 2015.10.26 0.3£¬Change to Addon<br>
+* 2015.10.26 0.2£¬The Script can deals with Curve which has many curves<br>
+* 2015.10.26 0.1£¬Initial version<br>
 <br>
 
-#4.Author
-Lee June @ BlenderCN<br>
+#4.Author & Contributors
+Lee June from http://www.BlenderCN.org<br>
+Spirou4D from http://blenderartists.org<br>
 <br>
 
 #5.CopyRight
